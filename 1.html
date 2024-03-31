@@ -1,11 +1,66 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-    <meta charset="UTF-8">
+<!DOCTYPE html><!--독타입-->
+<html lang="ko"><!--html 태그-->
+<head><!--head 태그-->
+    <meta charset="UTF-8"><!--meta 태그-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>멋쟁이 사자처럼 12기 프론트엔드 1주차</title><!--title 태그-->
 </head>
-<body>
-    hello world
+<body style="background-color: black; color: white;"> <!--body태그-->
+    <!--실제 웹 브라우저에 표시할 내용 입력-->
+    <h1>멋쟁이사자처럼 12기</h1> <!--heading 태그-->
+    <p>멋쟁이사자처럼 12기<br><!--line break br 태그 - 줄바꿈-->
+        아기사자입니다</p> <!--paragraph 태그-->
+    <div>
+        <p><span>아기사자는</span>햄스터가 아닙니다</p>
+        <!--
+            div, span은 나중에 스타일 넣을때 사용.... 할걸? 아마도?
+        -->
+    </div>
+    <ol>
+        <li>사자</li>
+        <li>고양이</li>
+        <li>햄스터</li>
+        <!--
+            ol -> oldered list 태그
+            리스트 요소들의 순서를 매겨 리스트로 나타냄
+            li -> 리스트 안의 내부 요소 태그
+        -->
+    </ol>
+    <ul>
+        <li>사자</li>
+        <li>고양이</li>
+        <li>햄스터</li>
+        <!--
+            ul -> unoldered list 태그
+            리스트 요소들의 순서를 매기지 않고 리스트로 나타냄
+        -->
+    </ul>
+    
+    <a href="https://github.com/C7266/Likelion">링크이름</a>  원하는 링크로 이동
+    <a href="https://github.com/C7266/Likelion" target="_blank">링크이름</a>  원하는 링크를 새창으로 이동
+    
+    <strong>강조할 텍스트</strong> <!--텍스트를 강조-->
+    <i>이탤릭체로 바꿀 텍스트</i> <!--텍스트를 이탤릭체로 변경-->
+
+    <img src="이미지 경로" alt="이미지 대체 텍스트" title="이미지 도움말"/>
+
+    <!--
+        form요소 : 사용자로부터 데이터를 받아야 하는 경우, 데이터를 받아 서버에 전달하기 위한 요소
+        ex) 회원가입, 글 작성, 쇼핑몰 주문 시...
+        아래부터 form 요소 몇가지
+    -->
+
+    <!--
+    <input type="데이터 종류" value="기본값" name="데이터 이름">
+    사용자 정보 입력 시 사용, 입력창 역할
+    -->
+
+    <!--
+    <button type="버튼역할 속성">버튼 이름</button>
+    버튼 역할
+    여기서 버튼의 속성이란? button -> 버튼 역할 submit -> 서버에 데이터 보냄 reset -> 초기화
+    -->
+    <input type="text" value="이름을 입력하세요" name="이름">
+    <button type="reset">버튼이다아아아</button>
 </body>
 </html>
